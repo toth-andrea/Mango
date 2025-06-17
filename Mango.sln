@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{88939407-21F2-4159-AC8F-5793E71359AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{B94F85ED-4A4D-4531-9EC3-10B61485DD47}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B94F85ED-4A4D-4531-9EC3-10B61485DD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94F85ED-4A4D-4531-9EC3-10B61485DD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94F85ED-4A4D-4531-9EC3-10B61485DD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94F85ED-4A4D-4531-9EC3-10B61485DD47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B94F85ED-4A4D-4531-9EC3-10B61485DD47} = {88939407-21F2-4159-AC8F-5793E71359AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DA7FA11-6D3B-42BC-B492-DE5A4861482C}
